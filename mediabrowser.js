@@ -9,9 +9,9 @@
     var container = this,
         items = container.children(selector),
         itemsWidth = items.width(),
-      _index = 0,
-      currentItem = items.eq(0),
-      itemsPerRow = Math.floor( items.parent().width() / items.outerWidth(true) );
+        _index = 0,
+        currentItem = items.eq(0),
+        itemsPerRow = Math.floor( items.parent().width() / items.outerWidth(true) );
       
     currentItem.addClass("active");
 
